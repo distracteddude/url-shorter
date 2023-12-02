@@ -12,13 +12,13 @@ active = True
 while active:
     url = input('Enter url: ')
 
-    if url.lower() =='exit':
+    if url.lower() == 'exit':
         active = False
 
     elif url:
         shortened_url = shorty(url)
         print(shortened_url)
     
-    else:
+    else: 
         print('Invalid. please try again')
         continue
